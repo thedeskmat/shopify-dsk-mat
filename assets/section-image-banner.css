@@ -1,4 +1,4 @@
-image-banner-wrapper {
+.image-banner-wrapper {
   display: flex;
   justify-content: center;
 }
