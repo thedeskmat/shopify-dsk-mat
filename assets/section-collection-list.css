@@ -125,11 +125,6 @@ div.card__media-spacer {
   .slider.collection-list--1-items {
     padding-bottom: 0;
   }
-  
-  .collection-list-title {
-    font-size: 18px;
-    font-weight: bold;
-  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
