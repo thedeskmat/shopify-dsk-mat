@@ -1,6 +1,5 @@
 .section-image-banner {
-  display: flex;
-  justify-content: center;
+  background-color: red;
 }
 
 .banner {
