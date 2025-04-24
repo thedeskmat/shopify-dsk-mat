@@ -1,0 +1,31 @@
+{% schema %}
+{
+  "name": "Custom Learning Section",
+  "tag": "section",
+  "class": "section-learning",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Welcome to My Custom Learning Page"
+    },
+    {
+      "type": "textarea",
+      "id": "body",
+      "label": "Body Text",
+      "default": "This is where you learn how Liquid and JSON templates work together."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="custom-learning">
+  <h1>{{ section.settings.heading }}</h1>
+  <p>{{ section.settings.body }}</p>
+</div>
