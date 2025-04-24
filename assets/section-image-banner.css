@@ -1,5 +1,6 @@
-.section-image-banner {
-  background-color: red;
+.image-banner-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .banner {
