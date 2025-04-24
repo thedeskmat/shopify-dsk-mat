@@ -1,3 +1,8 @@
+image-banner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .banner {
   display: flex;
   position: relative;
@@ -179,15 +184,6 @@ section#shopify-section-template--17505374732470__image_banner_Ydxcyz {
   background: #fff;
   border-radius: 15px;
 }
-
-/* .banner__media-half {
-  width: 50%;
-} */
-
-/* .banner__media-half + .banner__media-half {
-  right: 0;
-  left: auto;
-} */
 
 @media screen and (max-width: 749px) {
   .banner--stacked .banner__media-half {
@@ -478,4 +474,3 @@ section#shopify-section-template--17505374732470__image_banner_Ydxcyz {
 		display: block !important;
 	}
 }
-
