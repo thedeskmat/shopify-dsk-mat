@@ -44,6 +44,19 @@ div.card__media-spacer {
   position: relative;
 }
 
+.spaced-section {
+  text-align: center;
+  padding-top: 12px;
+}
+.collection-list-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.spaced-section {
+  padding: 5rem 0 3rem;
+  background: #f7f7f7;
+}
 
 @media screen and (min-width: 750px) {
   .collage-section + .collection-list-section .no-heading {
@@ -111,6 +124,11 @@ div.card__media-spacer {
 
   .slider.collection-list--1-items {
     padding-bottom: 0;
+  }
+  
+  .collection-list-title {
+    font-size: 18px;
+    font-weight: bold;
   }
 }
 
