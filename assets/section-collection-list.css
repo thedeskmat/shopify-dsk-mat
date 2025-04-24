@@ -39,12 +39,6 @@ div.card__media-spacer {
   margin-bottom: -1rem;
 }
 
-.collection-list-title {
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
 @media screen and (min-width: 750px) {
   .collage-section + .collection-list-section .no-heading {
     margin-top: calc(-4rem - var(--page-width-margin));
@@ -111,11 +105,6 @@ div.card__media-spacer {
 
   .slider.collection-list--1-items {
     padding-bottom: 0;
-  }
-  
-  .collection-list-title {
-    font-size: 18px;
-    font-weight: bold;
   }
 }
 
