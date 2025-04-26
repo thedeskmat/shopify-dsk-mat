@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'MyCustomFont';
+  font-family: 'Stretch Pro';
   src: url('{{ "StretchPro.woff2" | asset_url }}') format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -359,7 +359,7 @@ body,
 }
 
 h1, .h1 {
-  font-family: 'StretchPro';
+  font-family: 'Stretch Pro';
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -373,7 +373,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: 'StretchPro';
+  font-family: 'Stretch Pro';
 }
 
 .h0 {
