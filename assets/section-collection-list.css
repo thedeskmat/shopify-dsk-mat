@@ -1,7 +1,6 @@
 .collection-list-section {
   background-color: #f7f7f7;
 }
-
 .collection-hero__title {
   text-align: center;
   font-size: 26px;
@@ -20,6 +19,9 @@ div.card__media-spacer {
 }
 .media.media--adapt.media--hover-effect.overflow-hidden {
   box-shadow: 0px 0px 12px #0000002b;
+}
+.card--stretch.card-colored {
+  background: none;
 }
 
 .collection-list-title {
