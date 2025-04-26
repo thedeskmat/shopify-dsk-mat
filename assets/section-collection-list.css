@@ -27,7 +27,13 @@ div.card__media-spacer {
 div.card__media-spacer {
   padding: 1.5rem !important;
 }
-
+h2.collection-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: auto;
+}
 .collection-list-title {
   margin: 0;
 }
