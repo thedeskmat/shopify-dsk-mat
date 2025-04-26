@@ -25,7 +25,7 @@ div.card__media-spacer {
   background: none !important;
 }
 .card__media-spacer {
-  padding: 1.5rem;
+  padding: 1.5rem !important;
 }
 
 .collection-list-title {
