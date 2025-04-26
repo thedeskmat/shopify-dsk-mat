@@ -19,9 +19,13 @@ div.card__media-spacer {
 }
 .media.media--adapt.media--hover-effect.overflow-hidden {
   box-shadow: 0px 0px 12px #0000002b;
+  border-radius: 15px;
 }
 .card-colored.color-background-1 {
   background: none !important;
+}
+.card__media-spacer {
+  padding: 1.5rem;
 }
 
 .collection-list-title {
