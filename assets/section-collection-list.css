@@ -24,7 +24,7 @@ div.card__media-spacer {
 .card-colored.color-background-1 {
   background: none !important;
 }
-.card__media-spacer {
+div.card__media-spacer {
   padding: 1.5rem !important;
 }
 
