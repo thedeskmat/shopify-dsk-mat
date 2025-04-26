@@ -37,6 +37,12 @@ h2.collection-list-title {
 .collection-list-title {
   margin: 0;
 }
+.page-width-desktop {
+  padding: 5rem;
+}
+.title-wrapper-with-link.title-wrapper--self-padded-tablet-down {
+  margin-top: 0;
+}
 
 .collection-list__item:only-child {
   max-width: 100%;
