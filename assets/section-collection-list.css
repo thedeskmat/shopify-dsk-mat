@@ -61,6 +61,14 @@ h2.collection-list-title {
   margin-bottom: -1rem;
 }
 
+.slider-counter.caption {
+  display: none;
+}
+
+.slider.slider--tablet .slider__slide {
+  padding-left: 0;
+}
+
 @media screen and (min-width: 750px) {
   .collage-section + .collection-list-section .no-heading {
     margin-top: calc(-4rem - var(--page-width-margin));
@@ -94,6 +102,16 @@ h2.collection-list-title {
 @media screen and (max-width: 749px) {
   .collection-list-wrapper.page-width {
     padding: 0;
+  }
+    
+  h2.collection-list-title {
+    font-size: 18px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .title-wrapper-with-link.title-wrapper--self-padded-tablet-down {
+    margin-bottom: 0;
   }
 
   .collection-list:not(.slider) {
