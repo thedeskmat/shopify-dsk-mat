@@ -32,6 +32,10 @@ h2#FooterCountryLabel {
   justify-content: center;
 }
 
+.footer-block__heading {
+  text-align: center;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
