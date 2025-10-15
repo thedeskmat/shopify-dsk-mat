@@ -127,25 +127,18 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
 
-   <link rel="preload" as="font" href="{{ 'StretchPro.woff2' | asset_url }}" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="{{ 'StretchPro.woff2' | asset_url }}" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="{{ 'StretchPro.woff'  | asset_url }}" type="font/woff"  crossorigin>
 
   <style>
-/* TEMP: force-load Stretch Pro on every element so we can verify on iPhone */
-@font-face {
-  font-family: "Stretch Pro";
-  src: url("{{ 'StretchPro.woff2' | asset_url }}") format("woff2"),
-       url("{{ 'StretchPro.woff'  | asset_url }}") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Nuke all theme overrides for the test */
-html, body, * {
-  font-family: "Stretch Pro", Arial !important;
-  font-weight: 400 !important;
-}
+    @font-face {
+      font-family: "Stretch Pro";
+      src: url("{{ 'StretchPro.woff2' | asset_url }}") format("woff2"),
+          url("{{ 'StretchPro.woff'  | asset_url }}") format("woff");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
 </style>
 
 
