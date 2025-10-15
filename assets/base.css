@@ -2390,6 +2390,11 @@ details-disclosure > details {
   font-size: 3.5px !important;
 }
 
+:root {
+  --font-heading-family: "Stretch Pro", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-heading-weight: 400;
+}
+
 /* ensure headings don't request 600/700 from theme */
 h1,h2,h3,h4,h5,h6 { 
   font-family: var(--font-heading-family);
