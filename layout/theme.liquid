@@ -1,6 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    <link rel="preload" as="font" href="{{ 'StretchPro.woff2' | asset_url }}" type="font/woff2" crossorigin>
+{% comment %} Add this too if you use bold {% endcomment %}
+<link rel="preload" as="font" href="{{ 'StretchPro-Bold.woff2' | asset_url }}" type="font/woff2" crossorigin>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
